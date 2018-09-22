@@ -26,45 +26,24 @@
 }
 
 /* ======= [Content] =======*/
-.main .main-content {
-	padding: 20px 0;
-}
+.main .box { margin-top: 20px; margin-bottom: 20px; align-items: flex-start; background-color:black;} 
+.main .box > div {padding: 0;}
+.main .box .img-fluid {max-width: 50%;}
+.main .box p {font-weight: bold;font-size: 20px;}
 
-.main .box {
-    margin-top: 20px;
-    align-items: flex-start;
-} 
+/* Section-One */
 
-.main .box > div:nth-child(1) {
-    background: #f53b57;
-    color: white;
-}
+.main .section-one .sec-about-me { background: #f53b57;color: white;height: 60%;}
 
-.main .box > div:nth-child(3) {
-    background: #0be881;
-    color: white;
-}
+.main .section-one .sec-resume {background: #1e90ff;color: white;height: 40%;}
 
-.main .box > div:nth-child(2) {
-    background: #0fbcf9;
-    color: white;
-}
+.main .section-one .sec-test1 {background: #2ed573;color: white;height: 40%;} 
 
-.main .box .sec-cont {
-    margin:0 auto;
-    width:80%;
-}
+/* Section-two */
 
-.main .box .sec-cont .img-fluid {
-    transition: all 0.5s;
-    max-width: 50%;
-}
+.main .section-two .sec-test2 { background: #ff6b81;color: white;height: 30%;}
+.main .section-two .sec-test2 .img-fluid {max-width: 20%;}
 
-.main .box .sec-cont p {
-    font-weight: bold;
-    font-size: 20px;
-}
+.main .section-two .sec-test3 { background: #70a1ff;color: white;height: 70%;}
 
-.main .box .sec-cont:hover img {
-    transform: rotate(120deg);
-}
+.main .section-two .sec-test4 { background: #2f3542;color: white;height: 70%;}
