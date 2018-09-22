@@ -29,24 +29,42 @@
 .main .main-content {
 	padding: 20px 0;
 }
-.main .content {
-	background: #f5f5f5;
-}
+
+.main .box {
+    margin-top: 20px;
+    align-items: flex-start;
+} 
 
 .main .box > div:nth-child(1) {
     background: #f53b57;
-    height: 135px;
     color: white;
 }
 
 .main .box > div:nth-child(3) {
     background: #0be881;
-    height: 135px;
     color: white;
 }
 
 .main .box > div:nth-child(2) {
     background: #0fbcf9;
-    height: 135px;
     color: white;
+}
+
+.main .box .sec-cont {
+    margin:0 auto;
+    width:80%;
+}
+
+.main .box .sec-cont .img-fluid {
+    transition: all 0.5s;
+    max-width: 50%;
+}
+
+.main .box .sec-cont p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main .box .sec-cont:hover img {
+    transform: rotate(120deg);
 }
