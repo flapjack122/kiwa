@@ -26,24 +26,23 @@
 }
 
 /* ======= [Content] =======*/
-.main .box { margin-top: 20px; margin-bottom: 20px; align-items: flex-start; background-color:black;} 
+.main .box { margin-top: 20px; margin-bottom: 20px;background-color:black;} 
 .main .box > div {padding: 0;}
 .main .box .img-fluid {max-width: 50%;}
 .main .box p {font-weight: bold;font-size: 20px;}
 
 /* Section-One */
 
-.main .section-one .sec-about-me { background: #f53b57;color: white;height: 60%;}
+.main .section-one .sec-about-me { background: #f53b57;color: white;height: 50%;}
 
-.main .section-one .sec-resume {background: #1e90ff;color: white;height: 40%;}
+.main .section-one .sec-resume {background: #1e90ff;color: white;height: 50%;}
 
-.main .section-one .sec-test1 {background: #2ed573;color: white;height: 40%;} 
 
 /* Section-two */
+.main .section-two .sec-test1 { background: #2f3542;color: white;height: 100%;}
 
-.main .section-two .sec-test2 { background: #ff6b81;color: white;height: 30%;}
-.main .section-two .sec-test2 .img-fluid {max-width: 20%;}
 
-.main .section-two .sec-test3 { background: #70a1ff;color: white;height: 70%;}
+/* Section-three */
+.main .section-three .sec-test2 { background: #f53b57;color: white;height: 50%;}
 
-.main .section-two .sec-test4 { background: #2f3542;color: white;height: 70%;}
+.main .section-three .sec-test3 {background: #1e90ff;color: white;height: 50%;}
